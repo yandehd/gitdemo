@@ -1,0 +1,20 @@
+Last login: Sun Jan 27 08:24:19 2019
+    4  ping ec2-13-233-83-117.ap-south-1.compute.amazonaws.com's password:
+    5  ping ec2-13-233-83-117.ap-south-1.compute.amazonaws.com's
+    6  clear
+    7  ifconfig -a
+    8  yum install httpd -y
+    9  ll /etc/yum.repos*
+   10  cat /etc/yum.redhat-rhui.repo
+   11  cat /etc/yum.repos.d/redhat-rhui.repo
+   12  rpm -qa | grep httpd
+   13  yum install git -y
+   14  cd /opt
+   15  mkdir -p /opt/gitdemo
+   16  cd gitdemo
+   17  ll
+   18  git init
+   19  vi linuxcmd.txt
+   20  ls -a
+   21  history
+
