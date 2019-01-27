@@ -1,3 +1,16 @@
+18  git init
+   19  vi linuxcmd.txt
+   20  ls -a
+   21  history
+   22  ll
+   23  vi linuxcmd.txt
+   24  rpm -qa | grep httpd
+   25  ls
+   26  git status
+   27  git add linuxcmd.txt
+   28  git status
+   29  git commit -m"my first commit"
+   30  history
 Last login: Sun Jan 27 08:24:19 2019
     4  ping ec2-13-233-83-117.ap-south-1.compute.amazonaws.com's password:
     5  ping ec2-13-233-83-117.ap-south-1.compute.amazonaws.com's
