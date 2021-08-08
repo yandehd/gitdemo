@@ -1,3 +1,4 @@
+git push
 18  git init
 git diff
    19  vi linuxcmd.txt
