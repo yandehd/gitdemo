@@ -1,3 +1,4 @@
+
 git push
 18  git init
 git diff
@@ -32,4 +33,4 @@ Last login: Sun Jan 27 08:24:19 2019
    19  vi linuxcmd.txt
    20  ls -a
    21  history
-
+New Merg
