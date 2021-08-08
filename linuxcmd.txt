@@ -1,4 +1,5 @@
 18  git init
+git diff
    19  vi linuxcmd.txt
    20  ls -a
    21  history
