@@ -1,23 +1,20 @@
 pipeline { 
     agent any 
-    options {
-        skipStagesAfterUnstable()
-    }
+    
     stages {
         stage('Build') { 
             steps { 
-                sh 'make' 
+                echo "build" 
             }
         }
         stage('Test'){
             steps {
-                sh 'make check'
-                junit 'reports/**/*.xml' 
+                echo "test" 
             }
         }
         stage('Deploy') {
             steps {
-                sh 'make publish'
+                echo "deploye"
             }
         }
     }
